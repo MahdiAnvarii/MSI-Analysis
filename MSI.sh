@@ -30,5 +30,5 @@ multiqc .
 
 # Step 7 : MSI CAlculation
 msisensor scan -d /mnt/d/NGS//References/hg38.fa -o /mnt/d/NGS/References/MSIscan.bed
-msisensor msi -d /mnt/d/NGS/References/MSIscan.bed -t /mnt/d/NGS/Samples/P2/Aligned/SRR28000175_sorted_dedup_bqsr.bam -o /mnt/d/NGS/Samples/P2/Data/MSIoutput.bed
+msisensor msi -d /mnt/d/NGS/References/MSIscan.bed -t /mnt/d/NGS/Samples/P2/Aligned/SRR28000175_sorted_dedup_bqsr.bam -o /mnt/d/NGS/Samples/P2/Data/SRR28000175_MSI_output.bed
 
